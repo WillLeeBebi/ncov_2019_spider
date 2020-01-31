@@ -22,6 +22,7 @@ ncov_2019_spider
 1. mongodb 用于存储采集数据
 2. mysql 5.7 用于存储从mogodb采集的数据
 3. python 3.7 采集数据和转换mongodb数据到mysql
+4. 工程在win10 和 macOS 下测试通过。
 
 ## FAQ
 1. 为什么要用2套数据库
@@ -110,3 +111,14 @@ dxyarea_city 地市级数据
 dxyoverall 疫情数据概览
 
 
+
+
+### 启动工程
+1. 启动数据库
+export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod
+2. 启动数据转换（mongo 2 mysql）
+cd /Users/HE/Desktop/ncov_spider/ && python3  spider.py
+3. 启动爬虫（每天都要启动爬，启动不关机就会一直爬每天自动）
+cd /Users/HE/Desktop/ncov_spider/ && python3  main.py 
+
+以上3个命令，都开启一个新的终端执行。
