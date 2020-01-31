@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/Python-3.7-brightgreen)
 ![](https://img.shields.io/badge/Mongo-4.0-brightgreen)
 ![](https://img.shields.io/badge/Mysql-5.7-brightgreen)
+![](https://img.shields.io/github/license/junguoguo/ncov_2019_spider)
 
 ## 项目背景
 疫情数据分析
