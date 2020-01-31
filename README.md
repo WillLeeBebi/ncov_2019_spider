@@ -3,8 +3,8 @@
 2019 冠状病毒疫情爬虫。疫情数据可视化。
 
 ![](https://img.shields.io/badge/Python-3.7-brightgreen)
-![](https://img.shields.io/badge/mongo-4.0-brightgreen)
-![](https://img.shields.io/badge/mysql-5.7-brightgreen)
+![](https://img.shields.io/badge/Mongo-4.0-brightgreen)
+![](https://img.shields.io/badge/Mysql-5.7-brightgreen)
 
 ## 项目背景
 疫情数据分析
