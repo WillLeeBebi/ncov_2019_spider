@@ -13,10 +13,7 @@ ncov_2019_spider
 2. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111836.png )
 3. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111846.png)
 4. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111855.png )
-5. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111855.png )
-6. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111920.png )
-
-
+5. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111920.png )
 
 
 
@@ -27,12 +24,13 @@ ncov_2019_spider
 4. 工程在win10 和 macOS 下测试通过。
 
 ## FAQ
-1. 为什么要用2套数据库
+1. 为什么要用2套数据库  
 一部分用户不知道使用nosql。包括作者自己在做一些查询的时候还是sql来得顺手。
 
-2. 不会安装和部署，我只需要数据
+2. 不会安装和部署，我只需要数据  
 提ISSUE,或联系微信：ajun-guo
 
+----
 
 ## 安装和部署
  
@@ -108,13 +106,13 @@ python spider.py
 查询实例见：业务.sql
 
 表 ：
-dxyarea  省级数据
-dxyarea_city 地市级数据
-dxyoverall 疫情数据概览
+1. dxyarea  省级数据
+2. dxyarea_city 地市级数据
+3. dxyoverall 疫情数据概览
 
 
 
-
+----
 ### 启动工程
 1. 启动数据库
 export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod
