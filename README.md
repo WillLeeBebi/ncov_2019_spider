@@ -108,7 +108,7 @@ python spider.py
 1. dxyarea  省级数据
 2. dxyarea_city 地市级数据
 3. dxyoverall 疫情数据概览
-
+4. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/1.png )
 
 
 ----
