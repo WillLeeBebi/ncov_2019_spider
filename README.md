@@ -18,7 +18,7 @@ ncov_2019_spider
 
 
 
-##技术栈
+## 技术栈
 1. mongodb 用于存储采集数据
 2. mysql 5.7 用于存储从mogodb采集的数据
 3. python 3.7 采集数据和转换mongodb数据到mysql
@@ -32,7 +32,7 @@ ncov_2019_spider
 提ISSUE,或联系微信：ajun-guo
 
 
-##安装和部署
+## 安装和部署
  
 #### mongodb 用于采集的数据库入库
 安装方法for mac :https://www.runoob.com/mongodb/mongodb-osx-install.html
