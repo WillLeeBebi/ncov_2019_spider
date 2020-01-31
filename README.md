@@ -12,8 +12,7 @@ ncov_2019_spider
 1. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111804.jpg )
 2. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111836.png )
 3. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111846.png)
-4. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111855.png )
-5. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111920.png )
+4. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111920.png )
 
 
 
