@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/Python-v3.7-brightgreen)
 ![](https://img.shields.io/badge/Mongo-v4.0-brightgreen)
 ![](https://img.shields.io/badge/Mysql-v5.7-brightgreen)
-![](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)
+![](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-brightgreen)
 ![](https://img.shields.io/github/license/junguoguo/ncov_2019_spider)
 ![](https://img.shields.io/github/issues/junguoguo/ncov_2019_spider)
 ![](https://img.shields.io/badge/WeChat-ajun--guo-brightgreen?logo=wechat)	
