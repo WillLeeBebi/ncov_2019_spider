@@ -1,2 +1,84 @@
-# ncov_2019_spider
-2019 å† çŠ¶ç—…æ¯’ç–«æƒ…çˆ¬è™«ã€‚ç–«æƒ…æ•°æ®å¯è§†åŒ–ã€‚
+
+mongodb ÓÃÓÚ²É¼¯µÄÊı¾İ¿âÈë¿â
+°²×°·½·¨for mac :https://www.runoob.com/mongodb/mongodb-osx-install.html
+Æô¶¯mongo ·½·¨£º
+mongod --dbpath d:/workspace/mongodb
+export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod
+
+mysql °²×°
+Ğ¶ÔØmysql
+sudo rm /usr/local/mysql
+sudo rm -rf /usr/local/mysql*
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /Library/PreferencePanes/My*
+rm -rf ~/Library/PreferencePanes/My*
+sudo rm -rf /Library/Receipts/mysql*
+sudo rm -rf /Library/Receipts/MySQL*
+sudo rm -rf /var/db/receipts/com.mysql.*
+
+networksetup -setairportpower en0 off && networksetup -setairportpower en0 on
+
+
+ÏÂÔØ £º http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.10-osx10.9-x86_64.dmg
+°²×°·½·¨£ºhttps://www.cnblogs.com/kimbo/p/8724595.html
+root@localhost: 4O=ucCLx9y%3
+/usr/local/mysql-5.7.10-osx10.9-x86_64/bin
+
+ÖØÖÃÃÜÂë
+1. ¹Ø±Õmysql·şÎñ
+sudo /usr/local/mysql/support-files/mysql.server stop »òÕßÏµÍ³Æ«ºÃÀïÓĞ¸ö MySQL Àï¹Ø±Õ
+2.À´µ½mysqlÄ¿Â¼ÏÂ
+/usr/local/mysql-5.7.10-osx10.9-x86_64/bin
+3.µÃµ½È¨ÏŞ
+sudo su
+4.ÖØÆômysql·şÎñ
+./mysqld_safe --skip-grant-tables &? »òÕßÔÚÏµÍ³±àºÅÖĞ¿ªÆô
+5.ÖØ¿ªÖÕ¶Ë
+mysql -uroot -p £¨ÌáÊ¾ÊäÈëÃÜÂëÊ±Ëæ±ãÊäÈë¼´¿É
+6. ÄÃµ½È¨ÏŞ£¨¿ÉÒÔĞŞ¸ÄÃÜÂë£©
+flush privileges;
+7.ĞŞ¸ÄÃÜÂë
+set password for 'root'@'localhost'=password('root');
+set password for 'root'@'localhost'=password('root');
+
+ 
+
+
+°²×°navicat
+http://www.pc6.com/mac/111878.html
+´ò¿ªÖÕ¶Ë£¬ÊäÈë£ºsudo spctl --master-disable »Ø³µ£¬´ò¿ªÆ«ºÃÉèÖÃµÄ°²È«ĞÔÓëÒşË½£¬ÔÊĞíÈÎºÎÀ´Ô´£¬ÖØĞÂ´ò¿ªNavicat for MySQL¾ÍOKÁË
+
+
+°²×°ÒÀÀµ°ü
+
+python3 -m pip install -r requirements.txt
+
+
+crawler.py ÊÇÅÀ³æÆô¶¯µÄÈë¿ÚÎÄ¼ş
+python crawler.py 
+Æô¶¯ºó£¬¾Í»áÑ­»·²»¼ä¶ÏÅÀÈ¡£¬½«Êı¾İÈë¿âµ½mongo
+
+spider.py ÊÇmongo 2 mysql ×öÊı¾İ×ª»»µÄ
+Ö÷ÒªÊÇ·½±ã¿ÉÒÔÊ¹ÓÃsql ×öÊı¾İ²éÑ¯ºÍÑĞ¾¿¡£
+Ò²ĞèÒªÆô¶¯£¬Æô¶¯ÊµÊ±×ª»»Êı¾İµ½mysql
+python spider.py
+
+
+#µÚÒ»²½£ºÆô¶¯Êı¾İ¿â
+sudo pkill mongod
+export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod
+#µÚ¶ş²½£ºÆô¶¯Êı¾İ×ª»»£¨mongo 2 mysql£©
+cd /Users/HE/Desktop/ncov_spider/ && python3  spider.py
+# µÚÈı²¿£ºÆô¶¯ÅÀ³æ£¨Ã¿Ìì¶¼ÒªÆô¶¯ÅÀ£¬Æô¶¯²»¹Ø»ú¾Í»áÒ»Ö±ÅÀÃ¿Ìì×Ô¶¯£©
+cd /Users/HE/Desktop/ncov_spider/ && python3  main.py 
+
+ÒÔÉÏ3¸öÃüÁî£¬¶¼¿ªÆôÒ»¸öĞÂµÄÖÕ¶ËÖ´ĞĞ¡£
+
+Êı¾İ¿âÃû³Æ£ºncov
+²éÑ¯ÊµÀı¼û£ºÒµÎñ.sql
+
+±í £º
+dxyarea  Ê¡¼¶Êı¾İ
+dxyarea_city µØÊĞ¼¶Êı¾İ
+
+
