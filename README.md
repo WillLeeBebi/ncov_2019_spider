@@ -65,10 +65,10 @@
 ## 安装和部署
  
 #### mongodb 用于采集的数据库入库
-安装方法for mac :https://www.runoob.com/mongodb/mongodb-osx-install.html
-启动mongo 方法：
-mongod --dbpath d:/workspace/mongodb
-export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod
+安装方法for mac :https://www.runoob.com/mongodb/mongodb-osx-install.html  
+启动mongo 方法：   
+mongod --dbpath d:/workspace/mongodb  
+export PATH=/usr/local/mongodb/bin:$PATH && sudo mongod  
 
 #### mysql server安装
 
@@ -112,7 +112,7 @@ set password for 'root'@'localhost'=password('root');
 ```
  
 #### 安装navicat for mysql
-下载地址：http://www.pc6.com/mac/111878.html
+下载地址：http://www.pc6.com/mac/111878.html  
 打开终端，输入：sudo spctl --master-disable 回车，打开偏好设置的安全性与隐私，允许任何来源，重新打开Navicat for MySQL就OK了
 
 
@@ -123,19 +123,19 @@ python3 -m pip install -r requirements.txt
 
 
 ### 工程说明
-crawler.py 是爬虫启动的入口文件
-python crawler.py 
-启动后，就会循环不间断爬取，将数据入库到mongo
+crawler.py 是爬虫启动的入口文件  
+python crawler.py   
+启动后，就会循环不间断爬取，将数据入库到mongo  
 
-spider.py 是mongo 2 mysql 做数据转换的
-主要是方便可以使用sql 做数据查询和研究。
-也需要启动，启动实时转换数据到mysql
-python spider.py
+spider.py 是mongo 2 mysql 做数据转换的  
+主要是方便可以使用sql 做数据查询和研究。 
+也需要启动，启动实时转换数据到mysql  
+python spider.py  
 
-数据库名称：ncov
-查询实例见：业务.sql
+数据库名称：ncov  
+查询实例见：业务.sql  
 
-表 ：
+表 ：  
 1. dxyarea  省级数据
 2. dxyarea_city 地市级数据 
 3. dxyoverall 疫情数据概览 
