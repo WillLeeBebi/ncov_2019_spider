@@ -9,7 +9,10 @@ ncov_2019_spider
 丁香医生，从1.24号开始采集入库，所以工程包含了24号后的数据。
 
 ## 数据展示
-[]
+1. ![](http://baidu.com/pic/doge.png )
+2. ![](http://baidu.com/pic/doge.png )
+3. ![](http://baidu.com/pic/doge.png )
+4. ![](http://baidu.com/pic/doge.png )
 
 
 
