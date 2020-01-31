@@ -9,10 +9,12 @@ ncov_2019_spider
 丁香医生，从1.24号开始采集入库，所以工程包含了24号后的数据。
 
 ## 数据展示
-1. ![](http://baidu.com/pic/doge.png )
-2. ![](http://baidu.com/pic/doge.png )
-3. ![](http://baidu.com/pic/doge.png )
-4. ![](http://baidu.com/pic/doge.png )
+1. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111804.jpg )
+2. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111836.png )
+3. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111846.png)
+4. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111855.png )
+5. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111855.png )
+6. ![](https://github.com/junguoguo/ncov_2019_spider/raw/master/image/WeChat%20Image_20200131111920.png )
 
 
 
